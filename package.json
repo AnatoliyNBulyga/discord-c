@@ -51,6 +51,19 @@
   },
   "devDependencies": {
     "@types/uuid": "^9.0.3",
+    "husky": "^4.3.8",
+    "lint-staged": "^14.0.1",
     "prisma": "^5.2.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "./**/*.{ts,tsx}": [
+      "npm run prettier:fix",
+      "npm run lint"
+    ]
   }
 }
