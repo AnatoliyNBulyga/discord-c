@@ -16,8 +16,6 @@ const NavigationItem = ({ id, imageUrl, name }: NavigationItemProps) => {
   const params = useParams();
   const router = useRouter();
 
-  console.log("params ", params);
-
   const onClick = () => {
     router.push(`/servers/${id}`);
   };
