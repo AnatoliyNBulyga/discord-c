@@ -1,5 +1,4 @@
 import { db } from "@/lib/db";
-import { stat } from "fs";
 
 export const getOrCreateConversation = async (
   memberOneId: string,

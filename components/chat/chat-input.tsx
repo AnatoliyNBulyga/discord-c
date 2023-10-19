@@ -6,7 +6,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import axios from "axios";
 import qs from "query-string";
 
-import { Form, FormControl, FormField, FormItem } from "@/components/ui/form";
+import { Form, FormField, FormItem } from "@/components/ui/form";
 import React from "react";
 import { Plus } from "lucide-react";
 import { Input } from "@/components/ui/input";

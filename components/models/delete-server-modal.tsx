@@ -14,7 +14,6 @@ import {
 } from "@/components/ui/dialog";
 import { useModal } from "@/hooks/use-modal-store";
 import { Button } from "@/components/ui/button";
-import { channel } from "diagnostics_channel";
 
 const DeleteServerModal = () => {
   const { isOpen, onClose, type, data } = useModal();
